@@ -1,0 +1,747 @@
+.Navigation{
+    width: 1440px;
+    height: 40px;
+    background-color: white;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.Nav-holder{
+    width: 1440px;
+    margin: auto;
+}
+
+.Logo{
+    height: 50px;
+    margin-left: 50px;
+    margin-top: -15px;
+    float: left;
+}
+
+a{
+    font-family:'Shizuru', cursive;
+    text-decoration: none;
+    color: black;
+    margin-left: 40px;
+}
+
+li{
+    display: inline;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: black;
+    text-decoration: none;
+    text-align: left;
+}
+
+ul, li, p{
+    margin: 0;
+    padding: 0;
+}
+
+#searchbar{
+    width: 255px;
+    height: 30px;
+    padding-left: 50px;
+    margin-right: 50px;
+    margin-top: -30px;
+    float: right;
+    border: 2px solid black;
+    border-radius: 90px;
+    font-size: 15px;
+}
+
+.icon{
+    position: absolute;
+    right: 10px;
+    padding-top: -100px;
+    margin-top: 3px;
+    height: 50px;
+    text-align: center;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#Box1{
+    width: 1440px;
+    height: 85px;
+}
+
+h1{
+    font-size: 24px;
+    font-family: 'PT Sans', sans-serif;
+    margin-left: 122px;
+}
+
+#Box2{
+    width: 1440px;
+    height: 50px;
+}
+
+#Box3{
+    width: 1196px;
+    height: 470px;
+    margin-left: 122px;
+}
+
+#Cover{
+    width: 470px;
+    height: 470px;
+    float: left;
+    
+}
+
+#cover-text1{
+    font-size: 64px;
+    font-weight: bold;
+    font-family: 'Shizuru', cursive;
+    float: left;
+    margin-left: -435px;
+    margin-top: 100px;
+}
+
+#cover-text2{
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Shizuru', cursive;
+    float: left;
+    margin-left: -290px;
+    margin-top: 170px;
+}
+
+#SongBox{
+    float: left;
+    margin-left: 540px;
+    height: 470px;
+    margin-top: -470px;
+    padding-right: 121px;
+}
+
+.Fav{
+    font-size: 18px;
+    font-family: 'Shizuru', cursive;
+    float: left;
+    padding-right: 60px;
+    padding-top: 10px;
+    margin-top: -10px;
+    font-weight: bold;
+    border-bottom: 5px solid black;
+}
+
+.Classic{
+    font-size: 18px;
+    font-family: 'Shizuru', cursive;
+    float: left;
+    padding-right: 60px;
+    padding-top: 10px;
+    margin-top: -10px;
+}
+
+.Suggest{
+    font-size: 18px;
+    font-family: 'Shizuru', cursive;
+    float: left;
+    padding-right: 60px;
+    padding-top: 10px;
+    margin-top: -10px;
+}
+
+#header{
+    float: left;
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.hash{
+    float: left;
+    margin-top: -410px;
+    margin-left: 550px;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: 'PT Sans', sans-serif;
+}
+
+.Title{
+    float: left;
+    margin-top: -410px;
+    margin-left: 600px;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: 'PT Sans', sans-serif;
+}
+
+.Album{
+    float: left;
+    margin-top: -410px;
+    margin-left: 800px;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: 'PT Sans', sans-serif;
+}
+
+.Duration{
+    float: left;
+    margin-top: -410px;
+    margin-left: 1000px;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: 'PT Sans', sans-serif;
+}
+
+.one{
+    width: 100px;
+    float: left;
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+
+#one{
+    margin-left: 550px;
+    font-size: 14px;
+    margin-top: -360px;
+    float: left;
+}
+
+#ST1{
+    float: left;
+    font-size: 14px;
+    margin-left: 600px;
+    font-weight: bold;
+    margin-top: -370px;
+}
+
+#A1{
+    float: left;
+    font-size: 12px;
+    margin-left: 800px;
+    margin-top: -360px;
+}
+
+#D1{
+    float: left;
+    font-size: 12px;
+    margin-left: 1000px;
+    margin-top: -360px;
+}
+
+#options1{
+    float: left;
+    font-size: 12px;
+    margin-left: 1100px;
+    margin-top: -355px;
+}
+
+#Yoke{
+    font-size: 12px;
+    margin-left: 600px;
+    float: left;
+    margin-top: -355px;
+}
+
+#Lore{
+    font-size: 12px;
+    margin-left: 630px;
+    float: left;
+    margin-top: -355px;
+}
+
+bl{
+    width: 500px;
+    float: right;
+    height: 2px;
+
+}
+
+.two{
+    width: 100px;
+    float: left;
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+
+#playing{
+    margin-left: 545px;
+    font-size: 14px;
+    margin-top: -305px;
+    float: left;
+}
+
+#ST2{
+    float: left;
+    font-size: 14px;
+    margin-left: 600px;
+    font-weight: bold;
+    margin-top: -305px;
+}
+
+#A2i{
+    float: left;
+    font-size: 12px;
+    margin-left: 800px;
+    margin-top: -295px;
+    font-weight: bold;
+}
+
+#A2ii{
+    float: left;
+    font-size: 12px;
+    margin-left: 850px;
+    margin-top: -295px;
+    font-weight: bold;
+}
+
+#A2iii{
+    float: left;
+    font-size: 12px;
+    margin-left: 887px;
+    margin-top: -295px;
+    font-weight: bold;
+}
+
+#A2iv{
+    float: left;
+    font-size: 12px;
+    margin-left: 910px;
+    margin-top: -295px;
+    font-weight: bold;
+}
+
+#A2v{
+    float: left;
+    font-size: 12px;
+    margin-left: 935px;
+    margin-top: -295px;
+    font-weight: bold;
+}
+
+#A2vi{
+    float: left;
+    font-size: 12px;
+    margin-left: 960px;
+    margin-top: -295px;
+    font-weight: bold;
+}
+
+#D2{
+    float: left;
+    font-size: 12px;
+    margin-left: 1000px;
+    margin-top: -295px;
+    font-weight: bold;
+}
+
+#options2{
+    float: left;
+    font-size: 12px;
+    margin-left: 1100px;
+    margin-top: -290px;
+}
+
+#The{
+    font-size: 12px;
+    margin-left: 600px;
+    float: left;
+    margin-top: -290px;
+    font-weight: bold;
+}
+
+#Wombats{
+    font-size: 12px;
+    margin-left: 630px;
+    float: left;
+    margin-top: -290px;
+    font-weight: bold;
+}
+
+.Three{
+    width: 100px;
+    float: left;
+    font-family: 'PT Sans', sans-serif;
+}
+
+#Three{
+    margin-left: 550px;
+    font-size: 14px;
+    margin-top: -240px;
+    float: left;
+}
+
+#ST3{
+    float: left;
+    font-size: 14px;
+    margin-left: 600px;
+    font-weight: bold;
+    margin-top: -250px;
+}
+
+#A3{
+    float: left;
+    font-size: 12px;
+    margin-left: 800px;
+    margin-top: -240px;
+}
+
+#D3{
+    float: left;
+    font-size: 12px;
+    margin-left: 1000px;
+    margin-top: -240px;
+}
+
+#options3{
+    float: left;
+    font-size: 12px;
+    margin-left: 1100px;
+    margin-top: -235px;
+}
+
+#Jome{
+    font-size: 12px;
+    margin-left: 600px;
+    float: left;
+    margin-top: -235px;
+}
+
+.Four{
+    width: 100px;
+    float: left;
+    font-family: 'PT Sans', sans-serif;
+}
+
+#Four{
+    margin-left: 550px;
+    font-size: 14px;
+    margin-top: -180px;
+    float: left;
+}
+
+#ST4i{
+    float: left;
+    font-size: 14px;
+    margin-left: 600px;
+    font-weight: bold;
+    margin-top: -190px;
+}
+
+#ST4ii{
+    float: left;
+    font-size: 14px;
+    margin-left: 640px;
+    font-weight: bold;
+    margin-top: -190px;
+}
+
+#A4i{
+    float: left;
+    font-size: 12px;
+    margin-left: 800px;
+    margin-top: -185px;
+}
+
+#A4ii{
+    float: left;
+    font-size: 12px;
+    margin-left: 820px;
+    margin-top: -185px;
+}
+
+#D4{
+    float: left;
+    font-size: 12px;
+    margin-left: 1000px;
+    margin-top: -185px;
+}
+
+#options4{
+    float: left;
+    font-size: 12px;
+    margin-left: 1100px;
+    margin-top: -180px;
+}
+
+#Harmless{
+    font-size: 12px;
+    margin-left: 600px;
+    float: left;
+    margin-top: -175px;
+}
+
+.Five{
+    width: 100px;
+    float: left;
+    font-family: 'PT Sans', sans-serif;
+}
+
+#Five{
+    margin-left: 550px;
+    font-size: 14px;
+    margin-top: -125px;
+    float: left;
+}
+
+#ST5{
+    float: left;
+    font-size: 14px;
+    margin-left: 600px;
+    font-weight: bold;
+    margin-top: -135px;
+}
+
+#A5{
+    float: left;
+    font-size: 12px;
+    margin-left: 800px;
+    margin-top: -130px;
+}
+
+#D5{
+    float: left;
+    font-size: 12px;
+    margin-left: 1000px;
+    margin-top: -130px;
+}
+
+#options5{
+    float: left;
+    font-size: 12px;
+    margin-left: 1100px;
+    margin-top: -125px;
+}
+
+#Matt5{
+    font-size: 12px;
+    margin-left: 600px;
+    float: left;
+    margin-top: -120px;
+}
+
+#Maeson5{
+    font-size: 12px;
+    margin-left: 630px;
+    float: left;
+    margin-top: -120px;
+}
+
+.Six{
+    width: 100px;
+    float: left;
+    font-family: 'PT Sans', sans-serif;
+}
+
+#Six{
+    margin-left: 550px;
+    font-size: 14px;
+    margin-top: -70px;
+    float: left;
+}
+
+#ST6{
+    float: left;
+    font-size: 14px;
+    margin-left: 600px;
+    font-weight: bold;
+    margin-top: -80px;
+}
+
+#A6{
+    float: left;
+    font-size: 12px;
+    margin-left: 800px;
+    margin-top: -70px;
+}
+
+#D6{
+    float: left;
+    font-size: 12px;
+    margin-left: 1000px;
+    margin-top: -70px;
+}
+
+#options6{
+    float: left;
+    font-size: 12px;
+    margin-left: 1100px;
+    margin-top: -65px;
+}
+
+#Char{
+    font-size: 12px;
+    margin-left: 600px;
+    float: left;
+    margin-top: -65px;
+}
+
+#Cunn{
+    font-size: 12px;
+    margin-left: 640px;
+    float: left;
+    margin-top: -65px;
+}
+
+.Seven{
+    width: 100px;
+    float: left;
+    font-family: 'PT Sans', sans-serif;
+}
+
+#Seven{
+    margin-left: 550px;
+    font-size: 14px;
+    margin-top: -15px;
+    float: left;
+}
+
+#ST7{
+    float: left;
+    font-size: 14px;
+    margin-left: 600px;
+    font-weight: bold;
+    margin-top: -25px;
+}
+
+#A7i{
+    float: left;
+    font-size: 12px;
+    margin-left: 800px;
+    margin-top: -15px;
+}
+
+#A7ii{
+    float: left;
+    font-size: 12px;
+    margin-left: 826px;
+    margin-top: -16px;
+}
+
+#A7iii{
+    float: left;
+    font-size: 12px;
+    margin-left: 858px;
+    margin-top: -16px;
+}
+
+#A7iv{
+    float: left;
+    font-size: 12px;
+    margin-left: 884px;
+    margin-top: -16px;
+}
+
+#D7{
+    float: left;
+    font-size: 12px;
+    margin-left: 1000px;
+    margin-top: -20px;
+}
+
+#options7{
+    float: left;
+    font-size: 12px;
+    margin-left: 1100px;
+    margin-top: -15px;
+}
+
+#Matt7{
+    font-size: 12px;
+    margin-left: 600px;
+    float: left;
+    margin-top: -13px;
+}
+
+#Maeson7{
+    font-size: 12px;
+    margin-left: 630px;
+    float: left;
+    margin-top: -16px;
+}
+
+#Box6{
+    width: 1120px;
+    height: 140px;
+    margin-left: 122px;
+    border-bottom: 2px solid lightgrey;
+}
+
+#Box7{
+    width: 1120px;
+    height: 40px;
+    margin-left: 122px;
+}
+
+#Box8{
+    width: 1120px;
+    height: 70px;
+    margin-left: 122px;
+}
+
+#AC{
+    width: 70px;
+    height: 70px;
+    float: left;
+}
+
+#TurnB8{
+    padding-left: 20px;
+    font-size: 24px;
+    font-family: 'Shizuru', cursive;
+    font-weight: bold;
+    float: left;
+}
+
+#TWB8i{
+    font-size: 14px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    float: left;
+    margin-top: 40px;
+    margin-left: -45px;
+}
+
+#TWB8ii{
+    font-size: 14px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    float: left;
+    margin-top: 40px;
+    margin-left: -20px;
+}
+
+#backward{
+    width: 50px;
+    margin-left: 295px;
+    margin-bottom: 30px;
+    padding-right: 30px;
+    float: left;
+    padding-top: 15px;
+}
+
+#Pause{
+    width: 100px;
+    margin-top: -15px;
+    margin-left: -180px;
+}
+
+#forward{
+    width: 50px;
+    margin-top: 15px;
+    float: left;
+    margin-left: -2px;
+    padding-left: 130px;
+}
+
+#time{
+    font-size: 18px;
+    font-family: 'Shizuru', cursive;
+    float: right;
+    margin-right: 80px;
+    margin-top: 20px;
+}
+
+#info{
+    width: 40px;
+    float: right;
+    margin-right: -110px;
+    margin-top: 15px;
+}

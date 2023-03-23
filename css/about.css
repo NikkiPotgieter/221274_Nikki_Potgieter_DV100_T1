@@ -1,0 +1,53 @@
+.Navigation{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.Nav-holder{
+    width: 100%;
+    margin: auto;
+}
+
+.Logo{
+    height: 50px;
+    margin-left: 50px;
+    margin-top: -15px;
+    float: left;
+}
+
+a{
+    font-family:'Shizuru', cursive;
+    text-decoration: none;
+    color: black;
+    margin-left: 40px;
+}
+
+li{
+    display: inline;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: black;
+    text-decoration: none;
+    text-align: left;
+}
+
+ul, li, p{
+    margin: 0;
+    padding: 0;
+}
+
+#searchbar{
+    width: 255px;
+    height: 30px;
+    padding-left: 50px;
+    margin-right: 50px;
+    margin-top: -30px;
+    float: right;
+    border: 2px solid rgb(6, 254, 213);
+    border-radius: 90px;
+    font-size: 15px;
+}
+
