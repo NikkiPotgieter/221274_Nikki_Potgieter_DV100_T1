@@ -1,7 +1,10 @@
+body{
+    background-color: #0B0C10;
+}
+
 .Navigation{
     width: 100%;
-    height: 40px;
-    background-color: white;
+    height: 50px;
     padding-top: 20px;
     padding-left: 50px;
 }
@@ -29,9 +32,10 @@ li{
     display: inline;
     margin-left: 25px;
     margin-right: 25px;
-    color: black;
+    color: white;
     text-decoration: none;
     text-align: left;
+    font-size: 18px;
 }
 
 ul, li, p{
@@ -41,14 +45,17 @@ ul, li, p{
 
 #searchbar{
     width: 255px;
-    height: 30px;
+    height: 50px;
     padding-left: 50px;
     margin-right: 50px;
     margin-top: -30px;
     float: right;
     border: 2px solid rgb(6, 254, 213);
+    background-color: #0B0C10;
+    opacity: 70%;
+    color: white;
     border-radius: 90px;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .icon{
@@ -64,7 +71,7 @@ ul, li, p{
 
 header {
     width: 100%;
-    height: 600px;
+    height: 900px;
     background-image: url(../Assets/Cover\ Image/logic_no_pressure_home_cover_image.png);
     background-position: center;
     background-size: cover;
@@ -73,19 +80,19 @@ header {
 
 .overlay {
     width: 100%;
-    height: 600px;
+    height: 850px;
     background-color: rgba(0, 0, 0, 0.3);
     padding-left: 10%;
     padding-top: 150px;
 }
 
 header h3 {
-    font-size: 20px;
+    font-size: 36px;
     margin-bottom: 5px;
 }
 
 header h1 {
-    font-size: 70px;
+    font-size: 72px;
     margin-bottom: 15px;
     text-transform: uppercase;
     font-family: 'PT Sans Narrow', sans-serif;
@@ -98,181 +105,256 @@ header h1 {
     float: left;
     padding-left: 20px;
     padding-right: 20px;
-    height: 40px;
+    height: 70px;
     border-radius: 50px;
     margin-left: 5px;
     margin-right: 5px;
-    padding-top: 5px;
+    padding-top: 10px;
+    font-size: 24px;
 }
 
 .button {
-    width: 200px;
-    height: 40px;
+    width: 225px;
+    height: 70px;
     background-color: rgb(6, 254, 213);
     color: black;
     border-radius: 50px;
     text-align: center;
-    padding-top: 6px;
+    padding-top: 15px;
     font-weight: bold;
-    margin-top: 30px;
+    margin-top: 70px;
+}
+
+.button:hover{
+    cursor: pointer;
+    border: 2px solid rgb(6, 254, 213);
+    color: white;
 }
 
 .button-inverted {
-    width: 200px;
-    height: 40px;
+    width: 225px;
+    height: 70px;
+    border: 2px solid rgb(6, 254, 213);
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 15px;
+    font-weight: bold;
+    margin-top: 70px;
+}
+
+.button-inverted:hover{
+    cursor: pointer;
+    background-color: rgb(6, 254, 213);
+    color: black;
+}
+
+.button-heart{
+    width: 70px;
+    height: 70px;
     border: 2px solid rgb(6, 254, 213);
     border-radius: 50px;
     text-align: center;
     padding-top: 6px;
     font-weight: bold;
-    margin-top: 30px;
+    margin-top: 70px;
 }
 
-.button-heart{
+.button-heart:hover{
+    cursor: pointer;
+    background-color: rgb(6, 254, 213);
+    color: black;
+}
+
+.col-6 {
+    width: 50%;
+    margin-left: 80px;
+    margin-top: -60px;
+    padding-bottom: 80px;
+}
+
+.text {
+    height: 450px;
+    padding-left: 10%;
+    padding-top: 5px;
+    padding-right: 5%;
+    background-color: #202833;
+    opacity: 70%;
+    margin-left: -320px;
+    color: white;
+    margin-bottom: 80px;
+}
+
+.text h6{
+    font-size: 24px;
+}
+
+.text h2{
+    font-size: 48px;
+}
+
+.text p{
+    font-size: 18px;
+}
+
+.icons, ul {
+    list-style: none;
+}
+.icons li {
+    float: right;
+    padding-right: 20px;
+    height: 40px;
+    border-radius: 50px;
+    padding-top: 5px; 
+}
+
+.icon-1{
     width: 40px;
     height: 40px;
     border: 2px solid rgb(6, 254, 213);
     border-radius: 50px;
     text-align: center;
     padding-top: 6px;
-    font-weight: bold;
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
-.col-6 {
-    width: 50%;
+.icon-2{
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgb(6, 254, 213);
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 6px;
+    margin-top: 60px;
 }
 
-.text {
-    padding-top: 100px;
-    padding-right: 10%;
+.section-head{
+    width: 80%;
+    font-size: 24px;
+    margin-left: 80px;
+    color: white;
 }
 
 .thumbnail {
+    width: 277px;
+    height: 277px;
     text-align: center;
     padding-top: 25px;
 }
 
 .col-3 {
     width: 25%;
+    height: 25%;
+    margin-bottom: 80px;
+    padding-left: 80px;    
 }
 
 .round-1 {
-    width: 250px;
-    height: 200px;
+    width: 277px;
+    height: 277px;
     background-image: url(../Assets/Album\ Covers/man_on_the_moon_album_cover.png);
     background-position: center;
     background-size: cover;
     margin: auto;
-    margin-bottom: 10px;
 }
 
+
 .round-2 {
-    width: 250px;
-    height: 200px;
+    width: 277px;
+    height: 277px;
     background-image: url(../Assets/Album\ Covers/blame_it_on_baby_album_cover.png);
     background-position: center;
     background-size: cover;
     margin: auto;
-    margin-bottom: 10px;
 }
 
+
 .round-3 {
-    width: 250px;
-    height: 200px;
+    width: 277px;
+    height: 277px;
     background-image: url(../Assets/Album\ Covers/happy_thoughts_album_cover.png);
     background-position: center;
     background-size: cover;
     margin: auto;
-    margin-bottom: 10px;
 }
 
 .round-4 {
-    width: 250px;
-    height: 200px;
+    width: 277px;
+    height: 277px;
     background-image: url(../Assets/Album\ Covers/music_to_be_murdered_by_album_cover.png);
     background-position: center;
     background-size: cover;
     margin: auto;
-    margin-bottom: 10px;
 }
 
 .round-5 {
-    width: 250px;
-    height: 200px;
+    width: 277px;
+    height: 277px;
     background-image: url(../Assets/Album\ Covers/low_end_theory_album_cover.png);
     background-position: center;
     background-size: cover;
     margin: auto;
-    margin-bottom: 10px;
 }
 
 .round-6 {
-    width: 250px;
-    height: 200px;
+    width: 277px;
+    height: 277px;
     background-image: url(../Assets/Album\ Covers/wu_tang_album_cover.png);
     background-position: center;
     background-size: cover;
     margin: auto;
-    margin-bottom: 10px;
 }
 
 .round-7 {
-    width: 250px;
-    height: 200px;
+    width: 277px;
+    height: 277px;
     background-image: url(../Assets/Album\ Covers/to_pimp_a_butterfly_album_cover.png);
     background-position: center;
     background-size: cover;
     margin: auto;
-    margin-bottom: 10px;
 }
 
 .round-8 {
-    width: 250px;
-    height: 200px;
+    width: 277px;
+    height: 277px;
     background-image: url(../Assets/Album\ Covers/revenge_album_cover.png);
     background-position: center;
     background-size: cover;
     margin: auto;
-    margin-bottom: 10px;
 }
 
 .round-9 {
-    width: 250px;
-    height: 200px;
+    width: 277px;
+    height: 277px;
     background-image: url(../Assets/Album\ Covers/kod_album_cover.png);
     background-position: center;
     background-size: cover;
     margin: auto;
-    margin-bottom: 10px;
 }
 
 .round-10 {
-    width: 250px;
-    height: 200px;
+    width: 277px;
+    height: 277px;
     background-image: url(../Assets/Album\ Covers/no_pressure_album_cover.png);
     background-position: center;
     background-size: cover;
     margin: auto;
-    margin-bottom: 10px;
 }
 
 .round-11 {
-    width: 250px;
-    height: 200px;
+    width: 277px;
+    height: 277px;
     background-image: url(../Assets/Album\ Covers/circles_album_cover.png);
     background-position: center;
     background-size: cover;
     margin: auto;
-    margin-bottom: 10px;
 }
 
 .round-12 {
-    width: 250px;
-    height: 200px;
+    width: 277px;
+    height: 277px;
     background-image: url(../Assets/Album\ Covers/kanye_album_cover.png);
     background-position: center;
     background-size: cover;
     margin: auto;
-    margin-bottom: 10px;
 }
+

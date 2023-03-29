@@ -1,13 +1,16 @@
+body{
+    background-color: #0B0C10;
+}
+
 .Navigation{
-    width: 1440px;
-    height: 40px;
-    background-color: white;
+    width: 100%;
+    height: 50px;
     padding-top: 20px;
     padding-left: 50px;
 }
 
 .Nav-holder{
-    width: 1440px;
+    width: 100%;
     margin: auto;
 }
 
@@ -29,9 +32,10 @@ li{
     display: inline;
     margin-left: 25px;
     margin-right: 25px;
-    color: black;
+    color: white;
     text-decoration: none;
     text-align: left;
+    font-size: 18px;
 }
 
 ul, li, p{
@@ -41,14 +45,17 @@ ul, li, p{
 
 #searchbar{
     width: 255px;
-    height: 30px;
+    height: 50px;
     padding-left: 50px;
     margin-right: 50px;
     margin-top: -30px;
     float: right;
-    border: 2px solid black;
+    border: 2px solid rgb(6, 254, 213);
+    background-color: #0B0C10;
+    opacity: 70%;
+    color: white;
     border-radius: 90px;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .icon{
@@ -63,19 +70,21 @@ ul, li, p{
 }
 
 #Box1{
-    width: 1440px;
+    width: 100%;
     height: 85px;
 }
 
 h1{
     font-size: 24px;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Shizuru', cursive;
     margin-left: 122px;
+    color: white;
 }
 
 #Box2{
-    width: 1440px;
+    width: 80%;
     height: 50px;
+    margin-left: 122px;
 }
 
 #Box3{
@@ -88,7 +97,6 @@ h1{
     width: 470px;
     height: 470px;
     float: left;
-    
 }
 
 #cover-text1{
@@ -465,7 +473,8 @@ bl{
     font-size: 12px;
     margin-left: 600px;
     float: left;
-    margin-top: -175px;
+    margin-top: -170px;
+    color: white;
 }
 
 .Five{
@@ -659,9 +668,36 @@ bl{
 
 #Box6{
     width: 1120px;
-    height: 140px;
+    height: 1px;
     margin-left: 122px;
-    border-bottom: 2px solid lightgrey;
+    border-bottom: 2px solid #2b2b2b;
+}
+
+.line-element{
+    width: 1120px;
+    height: 50px;
+    margin-top: 140px;
+}
+
+.line{
+    width: 100%;
+    height: 5px;
+    background-color: #2b2b2b;
+}
+
+.line-fill{
+    width: 50%;
+    height: 5px;
+    background-color: #66FCF1;
+}
+
+.marker{
+    width: 20px;
+    height: 20px;
+    background-color: #66FCF1;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: -12px;
 }
 
 #Box7{
