@@ -5,6 +5,7 @@ body{
 .Navigation{
     width: 100%;
     height: 50px;
+    background-color: rgba(0, 0, 0, 0.3);
     padding-top: 20px;
     padding-left: 50px;
 }
@@ -60,9 +61,8 @@ ul, li, p{
 
 .icon{
     position: absolute;
-    right: 10px;
-    padding-top: -100px;
-    margin-top: 3px;
+    right: 35px;
+    padding-top: -300px;
     height: 50px;
     text-align: center;
     -ms-transform: translate(-50%, -50%);
@@ -87,6 +87,7 @@ header {
 }
 
 header h3 {
+    font-family: 'Poppins', sans-serif;
     font-size: 36px;
     margin-bottom: 5px;
 }
@@ -95,7 +96,8 @@ header h1 {
     font-size: 72px;
     margin-bottom: 15px;
     text-transform: uppercase;
-    font-family: 'PT Sans Narrow', sans-serif;
+    font-family:'Shizuru', cursive;
+    font-weight: bold;
 }
 
 .button-group, ul {
@@ -151,19 +153,12 @@ header h1 {
 .button-heart{
     width: 70px;
     height: 70px;
-    border: 2px solid rgb(6, 254, 213);
     border-radius: 50px;
     text-align: center;
-    padding-top: 6px;
     font-weight: bold;
     margin-top: 70px;
 }
 
-.button-heart:hover{
-    cursor: pointer;
-    background-color: rgb(6, 254, 213);
-    color: black;
-}
 
 .col-6 {
     width: 50%;
@@ -186,14 +181,17 @@ header h1 {
 
 .text h6{
     font-size: 24px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .text h2{
     font-size: 48px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .text p{
     font-size: 18px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .icons, ul {
@@ -257,6 +255,20 @@ header h1 {
     margin: auto;
 }
 
+.box{
+    width: 277px;
+    height: 277px;
+    background-color: rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    padding-left: 10px;
+    padding-top: 200px;
+    color: white;
+}
+
+.box:hover{
+    cursor: pointer;
+    opacity: 1;
+}
 
 .round-2 {
     width: 277px;
