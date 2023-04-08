@@ -60,11 +60,11 @@ ul, li, p{
 
 .icon{
     position: absolute;
-    right: 10px;
+    right: 20px;
     padding-top: -100px;
-    margin-top: 3px;
-    height: 50px;
-    text-align: center;
+    padding-bottom: 10px;
+    height: 30px;
+    width: 30px;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
@@ -236,8 +236,9 @@ h1{
 #options1{
     float: left;
     font-size: 12px;
+    width: 30px;
     margin-left: 1100px;
-    margin-top: -355px;
+    margin-top: -370px;
 }
 
 #Yoke{
@@ -343,8 +344,9 @@ bl{
 #options2{
     float: left;
     font-size: 12px;
+    width: 30px;
     margin-left: 1100px;
-    margin-top: -290px;
+    margin-top: -300px;
 }
 
 #The{
@@ -401,8 +403,9 @@ bl{
 #options3{
     float: left;
     font-size: 12px;
+    width: 30px;
     margin-left: 1100px;
-    margin-top: -235px;
+    margin-top: -245px;
 }
 
 #Jome{
@@ -465,8 +468,9 @@ bl{
 #options4{
     float: left;
     font-size: 12px;
+    width: 30px;
     margin-left: 1100px;
-    margin-top: -180px;
+    margin-top: -190px;
 }
 
 #Harmless{
@@ -515,8 +519,9 @@ bl{
 #options5{
     float: left;
     font-size: 12px;
+    width: 30px;
     margin-left: 1100px;
-    margin-top: -125px;
+    margin-top: -135px;
 }
 
 #Matt5{
@@ -571,8 +576,9 @@ bl{
 #options6{
     float: left;
     font-size: 12px;
+    width: 30px;
     margin-left: 1100px;
-    margin-top: -65px;
+    margin-top: -80px;
 }
 
 #Char{
@@ -648,8 +654,9 @@ bl{
 #options7{
     float: left;
     font-size: 12px;
+    width: 30px;
     margin-left: 1100px;
-    margin-top: -15px;
+    margin-top: -30px;
 }
 
 #Matt7{
@@ -776,7 +783,7 @@ bl{
 }
 
 #info{
-    width: 40px;
+    width: 30px;
     float: right;
     margin-right: -110px;
     margin-top: 15px;
